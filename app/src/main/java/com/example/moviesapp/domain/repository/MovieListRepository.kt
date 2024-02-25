@@ -1,6 +1,7 @@
 package com.example.moviesapp.domain.repository
 
-import com.example.moviesapp.data.remote.response.Movie
+import com.example.moviesapp.data.remote.response.MovieDto
+import com.example.moviesapp.domain.model.Movie
 import com.example.moviesapp.utils.Resource
 import kotlinx.coroutines.flow.Flow
 
