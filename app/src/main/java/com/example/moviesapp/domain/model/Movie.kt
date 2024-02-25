@@ -1,9 +1,6 @@
-package com.example.moviesapp.data.local.movie
+package com.example.moviesapp.domain.model
 
-import androidx.room.PrimaryKey
-
-data class MovieEntity(
-    @PrimaryKey
+data class Movie(
     val id: Int,
     val adult: Boolean,
     val backdropPath: String,
