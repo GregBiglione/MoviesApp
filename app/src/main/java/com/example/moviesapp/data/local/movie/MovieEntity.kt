@@ -1,7 +1,8 @@
 package com.example.moviesapp.data.local.movie
 
+import androidx.room.Entity
 import androidx.room.PrimaryKey
-
+@Entity
 data class MovieEntity(
     @PrimaryKey
     val id: Int,
